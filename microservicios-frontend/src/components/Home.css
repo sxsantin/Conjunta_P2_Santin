@@ -1,0 +1,44 @@
+.home-container {
+    background-color: #f8f9fa;
+    padding-bottom: 50px;
+}
+
+.jumbotron-custom {
+    background: linear-gradient(to right, #007bff, #0056b3);
+    color: white;
+    padding: 60px 30px;
+    border-radius: 10px;
+}
+
+.icon {
+    font-size: 50px;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+button {
+    background-color: #007bff;
+    border: none;
+}
+
+button:hover {
+    background-color: #0056b3;
+} 
